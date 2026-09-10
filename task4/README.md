@@ -1,39 +1,46 @@
-# Python Task 5: Data Processing, Functions & Email Filtering
+Python Task 4: Control Flow, Loops, Comprehensions & Data Systems
+A collection of modular Python scripts focused on core control flow structures, conditional loops, advanced dictionary/list comprehensions, and data categorization exercises.
 
-A collection of modular Python scripts focused on robust function design, comprehensive data aggregation, and advanced string/list comprehensions for automated filtering workflows.
+Project Overview
+This repository contains comprehensive solutions for automation and data filtering tasks implemented in Python (task_4.ipynb), highlighting essential programming logic such as iterative loops, conditional branching, password security validations, and statistical data parsing.
 
-## Project Overview
+Key Features & Code Structure
+Iterative & Conditional Loops:
 
-This repository contains solutions for automated data processing tasks implemented in Python (`task_5.ipynb`), highlighting core programming concepts such as error handling, custom algorithmic functions, and concise data transformations.
+Implements for loops to isolate numbers divisible by specific criteria (e.g., multiples of 7).
 
-## Key Features & Code Structure
+Calculates cumulative totals and sums for sequences of even numbers within structured ranges.
 
-* **Robust Prime Number Generator (`prime_upto`)**:
-* Accepts an integer parameter $n$ and computes all prime numbers up to $n$ efficiently.
-* Includes strict input type validation (`TypeError`) and value checks (`ValueError`) to handle edge cases gracefully.
+Authentication & Security Flow:
 
+Features a secure while loop password validation system with limited retry constraints and access control blocking mechanisms.
 
-* **Statistical Data Aggregator**:
-* Accepts a list of numerical values and parses them into a structured dictionary.
-* Automatically calculates total sums, averages, maximum/minimum values, and extracts subsets of even numbers.
+Handles numerical countdowns with controlled early-exit conditions (break).
 
+Advanced Comprehensions:
 
-* **Automated Email Filtering & Set Comprehension**:
-* Processes datasets of email string records using list comprehension to isolate specific organizational domains (e.g., `@company.com`).
-* Utilizes set comprehension to isolate and count unique user identifiers preceding the `@` symbol, eliminating duplicate log entries.
+Builds dynamic dictionaries mapping word lengths and character frequencies using efficient comprehension syntax.
 
+Filters complex datasets, including numerical sequences with primary number validations and non-prime categorization.
 
+Data Systems & Categorization:
 
-## Technologies Used
+Features an interactive Student Grade System that tracks inputs, validates test score parameters, and aggregates class statistics (averages, maximums, and minimums).
 
-* **Language:** Python 3
-* **Environment:** Jupyter Notebook (`.ipynb`)
-* **Core Concepts:** Functions, Error Handling, List/Set Comprehensions, Data Aggregation
+Includes list categorizers and custom dictionaries like the FizzBuzz mapping generator.
 
-## Getting Started
+Technologies Used
+Language: Python 3
 
+Environment: Jupyter Notebook (.ipynb)
+
+Core Concepts: Control Flow (for/while), Conditional Logic, List/Dictionary Comprehensions, Error Handling & Data Validation
+
+Getting Started
 To explore or run the code:
 
-1. Clone this repository or download the `task_5.ipynb` file.
-2. Open the notebook in Jupyter Lab, Jupyter Notebook, or VS Code.
-3. Run the cells sequentially to observe function outputs and data parsing demonstrations.
+Clone this repository or download the task_4.ipynb file.
+
+Open the notebook in Jupyter Lab, Jupyter Notebook, or VS Code.
+
+Run the cells sequentially to observe iterative script executions and data processing routines.
